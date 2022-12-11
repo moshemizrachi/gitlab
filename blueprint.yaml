@@ -12,12 +12,12 @@ inputs:
   gitlab_domain:
     type: string
     display_label: GitLab Domain
-    default: gitlab.moshemizrachi.com
+    default: gitlab.anthonycritelli.com
 
   cert_manager_issuer_email:
     type: string
     display_label: Cert Manager Issuer Email
-    default: moshem@cloudify.co
+    default: anthony@cloudify.co
 
   kubernetes_master_endpoint:
     type: string
