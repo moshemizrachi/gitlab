@@ -12,7 +12,7 @@ inputs:
   gitlab_domain:
     type: string
     display_label: GitLab Domain
-    default: gitlab.anthonycritelli.com
+    default: gitlab.moshemizrachi.com
 
   cert_manager_issuer_email:
     type: string
