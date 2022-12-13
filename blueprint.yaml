@@ -147,4 +147,4 @@ capabilities:
 
   ingress_hostname:
     description: Ingress hostname to add as DNS record for the GitLab domain
-    value: { get_attribute: [ ingress, kubernetes,  "manifests/ingress.yaml#0", spec, rules, 0, hosts ] }
+    value: { get_attribute: [ ingress, kubernetes,  "manifests/ingress.yaml#0", spec, rules, 0, host ] }
